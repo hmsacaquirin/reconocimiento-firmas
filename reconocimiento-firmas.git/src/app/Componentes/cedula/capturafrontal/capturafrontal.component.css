@@ -1,0 +1,43 @@
+.padre {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: center ;
+ }
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado{
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
